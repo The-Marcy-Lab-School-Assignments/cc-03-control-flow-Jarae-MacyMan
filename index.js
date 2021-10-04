@@ -36,11 +36,17 @@ function countEveryOdd(int){
 }
 
 //5 
-function countEvens(num){
+function isAllLowerCase(aa){
+    
+}
+
+function countMultiplesOfFive (num){
     let aRR = [];
     for (let i = 1; i <= num; i++){
         if (i % 5 === 0){
-            
-  
+            aRR.push(i);
+        }
+    }  
+    console.log(aRR);
 }
 
