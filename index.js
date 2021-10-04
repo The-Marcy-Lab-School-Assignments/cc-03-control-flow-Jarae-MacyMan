@@ -15,7 +15,7 @@ function countFromOne(int){
 }
 
 //3
-function countEveryEven(num){
+function isNegative(num){
     if (num > 0)
         console.log('false');
     else(num < 0)
@@ -24,7 +24,7 @@ function countEveryEven(num){
 }
 
 //4
-function countEveryOdd(int){
+function betweenFiveAndTwenty(int){
     if (4 < int){
         console.log('true');
     }else if (int >21){
@@ -38,9 +38,9 @@ function countEveryOdd(int){
 //5 
 function isAllLowerCase(aa){
     if (aa === aa.toLowerCase()){
-        return 'true';
+        console.log('true');
     }else if(aa === aa.toUpperCase()){
-        return 'false';
+        console.log('false');
     }
     
 }
