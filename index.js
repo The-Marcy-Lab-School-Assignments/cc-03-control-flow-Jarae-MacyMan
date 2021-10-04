@@ -37,6 +37,11 @@ function countEveryOdd(int){
 
 //5 
 function isAllLowerCase(aa){
+    if (aa === aa.toLowerCase()){
+        return 'true';
+    }else if(aa === aa.toUpperCase()){
+        return 'false';
+    }
     
 }
 
